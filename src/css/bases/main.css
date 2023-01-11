@@ -19,11 +19,6 @@ p {
   margin-bottom: 5px;
 }
 
-h2, h3 {
- margin-left: 10%;
- margin-right: 10%;
-}
-
 h1, h2, h3, .btn, button, .btn-extra {
   font-family: var(--font-lato);
   font-weight:400
@@ -46,6 +41,8 @@ h1 {
 
 h2 {
   font-size: var(--h2);
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h3 {
@@ -53,6 +50,8 @@ h3 {
   font-size: var(--h3);
   margin-top: 50px;
   margin-bottom: 25px;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 .btn {
@@ -117,6 +116,8 @@ a {
   position: absolute;
   z-index: -1;
   top: 50px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .down {
@@ -189,4 +190,48 @@ a {
   
   .oeuvre-bold {
     font-weight: bolder;
+  }
+
+  .link-intext {
+    text-decoration: underline;
+  }
+
+  .definition_special {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .tarifs-lign {
+    margin-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 20%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .tarifs-lign p {
+    margin: 0%;
+  }
+
+  .tarifs {
+    margin-top: 10px;
+  }
+
+  .animaux {
+    margin-top: 50px;
+    font-weight: lighter;
+    font-size: smaller;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
+  .informations {
+    font-weight: bold;
+    margin-bottom: -20px;
+  }
+
+  .informations p {
+    margin-bottom: 20px;
   }

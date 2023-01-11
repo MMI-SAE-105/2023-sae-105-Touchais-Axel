@@ -1,0 +1,65 @@
+.form-contact {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.text {
+  margin-top: 4%;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.message {
+  margin-top: 3%;
+  width: 100%;
+  height: 150px;
+  border: 0.5%;
+  border-color: var(--light-french-beige);
+  border-radius: 10px;
+ 
+}
+
+input {
+  width: 100%;
+  height: 2rem;
+  border: 0.2%;
+  border-color: var(--light-french-beige);
+  border-radius: 10px;
+  margin-top: 3%;
+}
+
+.bouton-envoyer {
+  padding-right: 12%;
+  padding-left: 12%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  color: var(--impure-white);
+  background-color: var(--jet);
+  border-radius: 10px;
+  display: block;
+  margin:0 auto;
+}
+
+.logo {
+  width: 25%;
+  margin-left: 3rem;
+}
+
+.text2 {
+  font-size: 12px;
+  font-family: 'mulish';
+  margin-bottom: 2rem;
+  margin-left: 4%;
+  margin-top: 10%;
+}
+
+.check {
+  display: flex;
+  margin-top: 6%;
+}
+
+.obligatoire {
+  font-size: 12px;
+  margin-bottom: 2rem;
+}
