@@ -1,0 +1,20 @@
+:root {
+
+/* Color styles */
+--light-french--beige: rgba(174, 157, 115, 1);
+--bone: rgba(218, 211, 190, 1);
+--jet: rgba(45, 42, 41, 1);
+--impure-white: rgba(254, 254, 254, 1);
+
+/* Text-size styles */
+/* base size: body (16px) */
+--h1: 1.88rem;
+--h2: 1.56rem;
+--h3: 1.25rem;
+--body: 1rem;
+--extra: 0.88rem;
+--btn-extra: 0.81rem;
+--extra-light: 0.88rem;
+--btn: 1.25rem;
+
+}
