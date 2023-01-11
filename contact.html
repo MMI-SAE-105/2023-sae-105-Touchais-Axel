@@ -26,51 +26,53 @@
 
     <a href="index.html"><img src="public/icon/logo.webp" alt="logo du site"></a>
     <button id="hamburger"><img src="/public/icon/hamburger.svg" alt="menu hamburger"></button>
-  
+
   </div>
 </header>
 
 <div id="menu-content">
 <nav>
 
-<ul>
+  <div class="close-button" id="close-button"><button><img src="public/icon/cross.svg" alt="fermer le menu"></button></div>
+
+<ul class="menu-list">
 
   <li><a href="art-informel.html"><h2>L'art informel</h2></a></li>
   
-  <li><h2>Catalogue</h2>
-    <ul>
+  <li class="toggle-button"><h2>Catalogue</h2>
+    <ul class="sub-menu">
     
-    <li><h2>Artistes</h2>
-      <ul>
-        <li><a href="artiste1.html"><h2>Willi Baumeister</h2></a></li>
-        <li><a href="artiste2.html"><h2>Carl Buchheister</h2></a></li>
-        <li><a href="artiste3.html"><h2>Bice Lazzari</h2></a></li>
-        <li><a href="artiste4.html"><h2>Giulio Turcato</h2></a></li>
+    <li class="toggle-button"><h3>Artistes</h3>
+      <ul class="sub-menu">
+        <li><a href="artiste1.html"><h3 class="sous-partie">Willi Baumeister</h3></a></li>
+        <li><a href="artiste2.html"><h3 class="sous-partie">Carl Buchheister</h3></a></li>
+        <li><a href="artiste3.html"><h3 class="sous-partie">Bice Lazzari</h3></a></li>
+        <li><a href="artiste4.html"><h3 class="sous-partie">Giulio Turcato</h3></a></li>
       </ul>
     </li>
 
-    <li><h2>Oeuvres</h2>
-      <ul>
-        <li><a href="oeuvre1.html"><h2>Apollo</h2></a></li>
-        <li><a href="oeuvre2.html"><h2>Mask4</h2></a></li>
-        <li><a href="oeuvre3.html"><h2>Dreieck</h2></a></li>
-        <li><a href="oeuvre4.html"><h2>Grau-Blau</h2></a></li>
-        <li><a href="oeuvre5.html"><h2>Composizione</h2></a></li>
-        <li><a href="oeuvre6.html"><h2>Misure n31</h2></a></li>
-        <li><a href="oeuvre7.html"><h2>Superficie lunare</h2></a></li>
-        <li><a href="oeuvre8.html"><h2>Macchie</h2></a></li>
+    <li  class="toggle-button"><h3>Oeuvres</h3>
+      <ul class="sub-menu">
+        <li><a href="oeuvre1.html"><h3 class="sous-partie">Apollo</h3></a></li>
+        <li><a href="oeuvre2.html"><h3 class="sous-partie">Mask4</h3></a></li>
+        <li><a href="oeuvre3.html"><h3 class="sous-partie">Dreieck</h3></a></li>
+        <li><a href="oeuvre4.html"><h3 class="sous-partie">Grau-Blau</h3></a></li>
+        <li><a href="oeuvre5.html"><h3 class="sous-partie">Composizione</h3></a></li>
+        <li><a href="oeuvre6.html"><h3 class="sous-partie">Misure n31</h3></a></li>
+        <li><a href="oeuvre7.html"><h3 class="sous-partie">Superficie lunare</h3></a></li>
+        <li><a href="oeuvre8.html"><h3 class="sous-partie">Macchie</h3></a></li>
       </ul>
     </li>
 
     </ul>
   </li>
   
-  <li><h2>Visiteurs</h2>
-    <ul>
+  <li  class="toggle-button"><h2>Visiteurs</h2>
+    <ul class="sub-menu">
     
-    <li><a href="tarifs.html"><h2>Tarifs</h2></a></li>
+    <li><a href="tarifs.html"><h3>Tarifs</h3></a></li>
 
-    <li><a href="informations.html"><h2>Informtaions</h2></a></li>
+    <li><a href="informations.html"><h3>Informtaions</h3></a></li>
     </ul>
   
   </li>
@@ -169,6 +171,8 @@
   </a>
  
 </footer>
+
+<script src="/src/js/menu.js"></script>
 
 </body>
 </html>
