@@ -12,27 +12,24 @@ closeButton.addEventListener("click", () => {
 
 const toggleButtons = document.querySelectorAll(".toggle-button");
 
+function closeSiblingSubmenus(subMenu){
+    let parent = subMenu.parentNode;
+    let siblingSubmenus = parent.querySelectorAll(".sub-menu");
+    for(let sibling of siblingSubmenus){
+        if(sibling != subMenu){
+            sibling.classList.remove("show");
+        }
+    }
+}
+
 for (let button of toggleButtons) {
     button.addEventListener("click", e => {
-        let subMenu = e.target.nextElementSibling;
+        e.stopPropagation();
+        // Close all currently open submenus of the same level
+        let li_parent = e.target.parentElement;
+        let subMenu = li_parent.querySelector('.sub-menu');
+        closeSiblingSubmenus(subMenu);
+        // Open the clicked submenu
         subMenu.classList.toggle("show");
-    });
-}
-
-const toggleButtons2 = document.querySelectorAll(".toggle-button2");
-
-for (let button of toggleButtons) {
-    button.addEventListener("click", e => {
-        let subMenu2 = e.target.nextElementSibling;
-        subMenu2.classList.toggle("show");
-    });
-}
-
-const toggleButtons3 = document.querySelectorAll(".toggle-button3");
-
-for (let button of toggleButtons) {
-    button.addEventListener("click", e => {
-        let subMenu3 = e.target.nextElementSibling;
-        subMenu3.classList.toggle("show");
     });
 }
