@@ -9,7 +9,6 @@
     <title>Accueil - L'entrée des artistes.</title>
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="icon" href="public/icon/logo.webp">
-    <script src="/src/js/menu.js"></script>
 
 </head>
 
@@ -27,22 +26,24 @@
 
     <a href="index.html"><img src="public/icon/logo.webp" alt="logo du site"></a>
     <button id="hamburger"><img src="/public/icon/hamburger.svg" alt="menu hamburger"></button>
-  
+
   </div>
 </header>
 
 <div id="menu-content">
 <nav>
 
+  <div class="close-button" id="close-button"><button><img src="public/icon/cross.svg" alt="fermer le menu"></button></div>
+
 <ul>
 
   <li><a href="art-informel.html"><h2>L'art informel</h2></a></li>
   
-  <li><h2>Catalogue</h2>
-    <ul>
+  <li class="toggle-button"><h2>Catalogue</h2>
+    <ul class="sub-menu">
     
-    <li><h2>Artistes</h2>
-      <ul>
+    <li class="toggle-button2"><h2>Artistes</h2>
+      <ul class="sub-menu2">
         <li><a href="artiste1.html"><h2>Willi Baumeister</h2></a></li>
         <li><a href="artiste2.html"><h2>Carl Buchheister</h2></a></li>
         <li><a href="artiste3.html"><h2>Bice Lazzari</h2></a></li>
@@ -50,8 +51,8 @@
       </ul>
     </li>
 
-    <li><h2>Oeuvres</h2>
-      <ul>
+    <li  class="toggle-button3"><h2>Oeuvres</h2>
+      <ul class="sub-menu3">
         <li><a href="oeuvre1.html"><h2>Apollo</h2></a></li>
         <li><a href="oeuvre2.html"><h2>Mask4</h2></a></li>
         <li><a href="oeuvre3.html"><h2>Dreieck</h2></a></li>
@@ -66,8 +67,8 @@
     </ul>
   </li>
   
-  <li><h2>Visiteurs</h2>
-    <ul>
+  <li  class="toggle-button"><h2>Visiteurs</h2>
+    <ul class="sub-menu">
     
     <li><a href="tarifs.html"><h2>Tarifs</h2></a></li>
 
@@ -164,6 +165,7 @@
  
 </footer>
 
+<script src="/src/js/menu.js"></script>
 
 </body>
 </html>

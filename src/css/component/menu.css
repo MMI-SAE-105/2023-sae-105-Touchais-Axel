@@ -5,10 +5,10 @@
 #menu-content {
   position: fixed;
   top: 0;
-  right: -80%;
-  width: 80%;
+  right: -100%;
+  width: 100%;
   height: 100%;
-  background-color: white;
+  background-color: var(--jet);
   padding: 20px;
   box-sizing: border-box;
   transition: all 0.3s ease;
@@ -19,3 +19,26 @@
   transform: translateX(0%);
   right: 0;
 }
+
+#menu-content h2 {
+  font-family: var(--font-lato) ;
+  font-size: var(--h2);
+  color: var(--impure-white);
+}
+
+.sub-menu {
+  display: none;
+}
+
+.sub-menu2 {
+  display: none;
+}
+
+.sub-menu3 {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
