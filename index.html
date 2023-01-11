@@ -13,9 +13,15 @@
 
 <body>
 
-<header>
+  <a href="https://www.francebillet.com/">
+    <div class="billetterie">
+      <h2>BILLETTERIE</h2>
+    </div>
+  </a>
 
-  <div>
+<header class="header">
+
+  <div class="bar">
 
     <a href="index.html"><img src="public/icon/logo.webp" alt="logo du site"></a>
     <button><img src="/public/icon/hamburger.svg" alt="menu hamburger"></button>
@@ -23,7 +29,7 @@
   </div>
 </header>
 
-<nav>
+<nav class="menu">
 
 <ul>
 
@@ -73,27 +79,27 @@
 
 </nav>
 
-<a href="https://www.francebillet.com/">
-  <div>
-    <h2>BILLETTERIE</h2>
-  </div>
-</a>
-
 <h1>L'entrée des artistes</h1>
-<p>Exposition temporaire sur l’art informel du 13 Avril au 23 Juin 2021.</p>
+<p class="tagline">Exposition temporaire sur l’art informel du 13 Avril au 23 Juin 2021.</p>
 
-<img src="public/img/home-bg.webp" alt="fond d'écran">
-<img src="/public/icon/down-arrow.svg" alt="flêche vers le bas">
+<img src="public/img/home-bg.webp" class="image-bg" alt="fond d'écran">
+<img src="/public/icon/down-arrow.svg" class="down" alt="flêche vers le bas">
 
 <h3>Ordre de passage des oeuvres et artistes :</h3>
 
+<div class="carousel_arrow">
+
 <img src="public/icon/left-arrow.svg" alt="flêche vers la gauche">
-<div></div>
+<div class="carousel"></div>
 <img src="public/icon/right-arrow.svg" alt="flêche vers la droite">
+
+</div>
+
+<div class="infos_tarifs">
 
 <div>
   <a href="informations.html">
-    <button>
+    <button class="black-button">
       <p>INFORMATIONS</p>
     </button>
   </a>
@@ -101,56 +107,54 @@
 
 <div>
   <a href="tarifs.html">
-    <button>
+    <button class="black-button">
       <p>TARIFS</p>
     </button>
   </a>
 </div>
 
-<footer>
+</div>
 
-  <div>
+<footer class="container">
+
+  <div class="footer_start">
   
-    <div>
-      <a href="index.html">
-        <button>
-          <img src="public/icon/logo.webp" alt="logo du site">
-          <h1>L'entrée des artistes</h1>
-        </button>
-      </a>
-    </div>
-  
-    <div>
-      <a href="contact.html">
-        <button>
-          <p>CONTACTEZ NOUS !</p>
-        </button>
-      </a>
-    </div>
-  
+    <a href="index.html">
+          <div class="footer_identity">
+            <img src="public/icon/logo.webp" class="logo_footer" alt="logo du site" />
+            <span class="title_site">L'entrée des artistes</span>
+          </div>
+    </a>
+
+    <a href="contact.html">
+      <div class="btn_footer_contact">
+      <span class="text-btn-contact-footer">CONTACTEZ-NOUS !</span>
+    </a>
+
   </div>
-  
-    <div>
-  
-      <div></div>
-  
-      <p>Réseaux</p>
-  
-      <div></div>
-      
-    </div>
-    
-  
-  <div>
-    <div><a href="https://www.facebook.com"><img src="/public/icon/facebook.webp" alt="facebook"></a></div>
-    <div><a href="https://www.instagram.com"><img src="/public/icon/instagram.webp" alt="instagram"></a></div>
+     
   </div>
-  
-    <div></div>
-  
-    <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard.</p>
-  
-  </footer>
+
+  <div class="footer_reseaux">
+      <div class="ligne_small"></div>
+      <h5>Réseaux</h5>
+      <div class="ligne_small"></div>
+  </div>
+
+  <div class="footer_media">
+    <img src="public/icon/facebook.png" alt="logo de facebook" class="social-media">
+    <img src="public/icon/instagram.png" alt="logo d'instagram'" class="social-media">
+  </div>
+
+  <a href="http://www.iut-bm.univ-fcomte.fr/">
+    <div class="footer_end">
+      <div class="ligne_tall"></div>
+      <p class="legal">Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard.</p>
+    </div>
+  </a>
+ 
+</footer>
+
 
 </body>
 </html>

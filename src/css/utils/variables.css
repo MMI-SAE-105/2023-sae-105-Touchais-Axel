@@ -1,7 +1,7 @@
 :root {
 
 /* Color styles */
---light-french--beige: rgba(174, 157, 115, 1);
+--light-french-beige: rgba(174, 157, 115, 1);
 --bone: rgba(218, 211, 190, 1);
 --jet: rgba(45, 42, 41, 1);
 --impure-white: rgba(254, 254, 254, 1);
@@ -17,4 +17,7 @@
 --extra-light: 0.88rem;
 --btn: 1.25rem;
 
+/* Polices de caractère */
+--font-lato: 'Lato';
+--font-din: 'DIN';
 }

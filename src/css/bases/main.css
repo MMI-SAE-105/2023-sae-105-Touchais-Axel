@@ -4,3 +4,157 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'dinregular';
+  font-size: var(--body);
+  line-height: 1.3;
+  background-color: var(--bone);
+  font-weight: 400;
+}
+
+h2, h3 {
+ margin-left: 15%;
+ margin-right: 15%;
+}
+
+h1, h2, h3, .btn, button, .btn-extra {
+  font-family: var(--font-lato);
+  font-weight:400
+}
+
+.extra, .extra-light {
+  font-family: 'dinlight';
+}
+
+.btn, .btn-extra {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: var(--h1);
+  margin-top: 10%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  text-align: center;
+  font-size: var(--h3);
+  margin-top: 120px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  font-size: var(--btn);
+}
+
+.btn-extra {
+  font-size: var(--btn-extra)
+}
+
+.extra {
+ font-size: var(--extra);
+}
+
+.extra-light {
+  font-size: var(--extra-light);
+  font-weight: 'dinlight';
+}
+
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.billetterie h2 {
+  margin: 0%;
+}
+
+.billetterie {
+  color: var(--impure-white);
+  width: 100%;
+  height: 50px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  
+  background-color: var(--light-french-beige);
+  text-align: center;
+}
+
+.tagline {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.image-bg {
+  position: absolute;
+  z-index: -1;
+  top: 50px;
+}
+
+.down {
+  display: block;
+  margin: auto;
+    margin-top: 500px;
+  margin-bottom: 3rem;
+}
+
+.carousel_arrow {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.carousel {
+  width: 70%;
+  height: 400px;
+  background-color: var(--jet);
+  border-radius: 20px;
+
+}
+
+.infos_tarifs {
+  margin-top: 10%;
+  padding-left: 15%;
+  padding-right: 20%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.black-button {
+  font-family: var(--btn);
+  font-weight: 700;
+  background-color: var(--jet);
+  color: var(--impure-white);
+  border-radius: 5px;
+  text-align: center;
+  padding: 0px 10px;
+}
+
+/* footer */
+
+{
+
+}
