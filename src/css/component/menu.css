@@ -1,3 +1,7 @@
+#hamburger {
+  cursor: pointer;
+}
+
 #menu-content {
   position: fixed;
   top: 0;
